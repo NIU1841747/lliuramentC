@@ -5,5 +5,12 @@ int main(void) {
 	printf("Temperature: %d degrees\n", temperatura);
 	int fahrenheit = temperatura*9/5+32
 	printf("Fahrenheit: %.1f degrees\n", fahrenheit);
+	
+	if (temperatura >= 20) {
+		printf("High temperature");
+	} 
+	else {
+		printf("Low temperature");
+	}
 	return 0;
 }
